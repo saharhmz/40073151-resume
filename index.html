@@ -2,82 +2,264 @@
 <html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>رزومه سحر هوشمندزاده</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="main-header">
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">سحر هوشمندزاده</div>
+                <nav class="nav-links">
+                    <a href="#about">درباره من</a>
+                    <a href="#education">تحصیلات</a>
+                    <a href="#projects">پروژه‌ ها</a>
+                    <a href="#skills">مهارت‌ ها</a>
+                    <a href="#contact">تماس</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-<header>
-    <h1>سحر هوشمندزاده</h1>
-    <p><strong>ایمیل:</strong> <span dir="ltr">sarsari279@gmail.com</span></p>
-    <p><strong>گیت‌ هاب:</strong> <span dir="ltr"><a href="https://github.com/saharhmz" target="_blank">github.com/saharhmz</a></span></p>
-    <hr>
-</header>
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">سحر هوشمندزاده</h1>
+                    <p class="hero-subtitle">دانشجوی مهندسی کامپیوتر و توسعه‌دهنده وب</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <a href="mailto:sarsari279@gmail.com" target="_blank">sarsari279@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🔗</span>
+                            <a href="https://github.com/saharhmz" target="_blank">github.com/saharhmz</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container">
+                    <div class="profile-image-wrapper">
+                        <img src="profile.png" alt="عکس پروفایل سحر هوشمندزاده" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-    <h2>معرفی کوتاه</h2>
-    <p>
-        دانشجوی مهندسی کامپیوتر علاقه‌ مند به توسعه وب و یادگیری تکنولوژی‌ های جدید.
-        فردی <strong>پرتلاش</strong>، <strong>مسئولیت‌ پذیر</strong> و علاقه‌مند به <em>کار تیمی</em>.
-    </p>
-    <hr>
-</section>
+    <main class="main-content">
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">معرفی کوتاه</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-content">
+                    <p class="about-text">
+                        دانشجوی مهندسی کامپیوتر با علاقه‌ مندی عمیق به توسعه وب و یادگیری تکنولوژی‌ های جدید. 
+                        فردی <span class="highlight-text">پرتلاش</span>، <span class="highlight-text">مسئولیت‌ پذیر</span> و علاقه‌ مند به <span class="highlight-text">کار تیمی</span>.
+                        همیشه به دنبال چالش‌ های جدید و فرصت‌ هایی برای رشد هستم.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-<section>
-    <h2>تحصیلات</h2>
-    <article>
-        <h3>کارشناسی مهندسی کامپیوتر</h3>
-        <p>دانشگاه شهید چمران اهواز — سال ۱۴۰۰ تا اکنون</p>
-    </article>
-    <hr>
-</section>
+        <section id="education" class="education-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">تحصیلات</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="education-content">
+                    <div class="education-card">
+                        <div class="education-icon">🎓</div>
+                        <div class="education-details">
+                            <h3 class="education-degree">کارشناسی مهندسی کامپیوتر</h3>
+                            <p class="education-institution">دانشگاه شهید چمران اهواز</p>
+                            <p class="education-period">سال ۱۴۰۰ تا اکنون</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section>
-    <h2>پروژه‌ ها و تجربیات</h2>
-    <article>
-        <h3>BattleShip</h3>
-        <p><strong>شرح:</strong> پیاده سازی Backend بازی BattleShip با Django.</p>
-        <p><strong>لینک:</strong> <span dir="ltr"><a href="https://github.com/saharhmz/BattleShip" target="_blank">github.com/saharhmz/BattleShip</a></span></p>
-    </article>
-    <article>
-        <h3>Sudoku-Puzzle</h3>
-        <p><strong>شرح:</strong> پیاده سازی بازی Sudoku-Puzzle به زبان Java به صورت گرافیکی.</p>
-        <p><strong>لینک:</strong> <span dir="ltr"><a href="https://github.com/saharhmz/Sudoku-puzzle" target="_blank">github.com/saharhmz/Sudoku-puzzle</a></span></p>
-    </article>
-    <article>
-        <h3>Snapp-Food</h3>
-        <p><strong>شرح:</strong> نمونه اسنپ فود جهت سفارش غذا از رستوران‌ها به زبان Java.</p>
-        <p><strong>لینک:</strong> <span dir="ltr"><a href="https://github.com/saharhmz/SnappFood" target="_blank">github.com/saharhmz/SnappFood</a></span></p>
-    </article>
-    <article>
-        <h3>Snip-Store</h3>
-        <p><strong>شرح:</strong> Backend پروژه فروشگاه فروش سورس کد با PHP و Laravel.</p>
-        <p><strong>لینک:</strong> <span dir="ltr"><a href="https://github.com/saharhmz/Snip-Store" target="_blank">github.com/saharhmz/Snip-Store</a></span></p>
-    </article>
-    <hr>
-</section>
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">پروژه‌ ها و تجربیات</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-row">
+                        <div class="project-card card-1">
+                            <div class="project-header">
+                                <h3 class="project-title">BattleShip</h3>
+                                <div class="project-icon">🚢</div>
+                            </div>
+                            <p class="project-description">پیاده‌ سازی Backend بازی BattleShip با Django. این پروژه شامل طراحی API و منطق بازی می‌ باشد.</p>
+                            <a href="https://github.com/saharhmz/BattleShip" target="_blank" class="project-link">
+                                مشاهده پروژه
+                                <span class="link-arrow">→</span>
+                            </a>
+                        </div>
 
-<section>
-    <h2>مهارت‌ها</h2>
-    <ul>
-        <li>HTML — متوسط</li>
-        <li>JS — متوسط</li>
-        <li>CSS — متوسط</li>
-        <li>Office — خوب</li>
-        <li>PHP — خوب</li>
-        <li>Laravel — خوب</li>
-        <li>Java — خوب</li>
-        <li>Python — خوب</li>
-        <li>Django — خوب</li>
-        <li>SQL — خوب</li>
-        <li>C++ — متوسط</li>
-    </ul>
-    
-    <hr>
-</section>
+                        <div class="project-card card-2">
+                            <div class="project-header">
+                                <h3 class="project-title">Sudoku-Puzzle</h3>
+                                <div class="project-icon">🧩</div>
+                            </div>
+                            <p class="project-description">پیاده‌ سازی بازی Sudoku-Puzzle به زبان Java به صورت گرافیکی با رابط کاربری زیبا.</p>
+                            <a href="https://github.com/saharhmz/Sudoku-puzzle" target="_blank" class="project-link">
+                                مشاهده پروژه
+                                <span class="link-arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-row">
+                        <div class="project-card card-3">
+                            <div class="project-header">
+                                <h3 class="project-title">Snapp-Food</h3>
+                                <div class="project-icon">🍕</div>
+                            </div>
+                            <p class="project-description">نمونه اسنپ فود جهت سفارش غذا از رستوران‌ ها به زبان Java با قابلیت‌ های کامل.</p>
+                            <a href="https://github.com/saharhmz/SnappFood" target="_blank" class="project-link">
+                                مشاهده پروژه
+                                <span class="link-arrow">→</span>
+                            </a>
+                        </div>
 
-<footer>
-    <p>© 2025 — این رزومه توسط <strong>سحر هوشمندزاده</strong> ساخته شده است.</p>
-</footer>
+                        <div class="project-card card-4">
+                            <div class="project-header">
+                                <h3 class="project-title">Snip-Store</h3>
+                                <div class="project-icon">🏪</div>
+                            </div>
+                            <p class="project-description">Backend پروژه فروشگاه فروش سورس کد با PHP و Laravel و سیستم پرداخت.</p>
+                            <a href="https://github.com/saharhmz/Snip-Store" target="_blank" class="project-link">
+                                مشاهده پروژه
+                                <span class="link-arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">مهارت‌ ها</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <h3 class="category-title">توسعه وب</h3>
+                            <div class="category-icon">🌐</div>
+                        </div>
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">HTML</span>
+                                <span class="skill-level intermediate">متوسط</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">CSS</span>
+                                <span class="skill-level intermediate">متوسط</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level intermediate">متوسط</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">PHP</span>
+                                <span class="skill-level advanced">خوب</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Laravel</span>
+                                <span class="skill-level advanced">خوب</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <h3 class="category-title">برنامه‌ نویسی</h3>
+                            <div class="category-icon">💻</div>
+                        </div>
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level advanced">خوب</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level advanced">خوب</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Django</span>
+                                <span class="skill-level advanced">خوب</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-level intermediate">متوسط</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <h3 class="category-title">سایر مهارت‌ ها</h3>
+                            <div class="category-icon">🛠️</div>
+                        </div>
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-level advanced">خوب</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Office</span>
+                                <span class="skill-level advanced">خوب</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">تماس با من</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon">📧</div>
+                            <h3 class="contact-method">ایمیل</h3>
+                            <p class="contact-detail">sarsari279@gmail.com</p>
+                            <a href="mailto:sarsari279@gmail.com" class="contact-link">ارسال ایمیل</a>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">🔗</div>
+                            <h3 class="contact-method">گیت‌ هاب</h3>
+                            <p class="contact-detail">github.com/saharhmz</p>
+                            <a href="https://github.com/saharhmz" target="_blank" class="contact-link">مشاهده پروفایل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    © 2025 — این رزومه توسط <strong>سحر هوشمندزاده</strong> ساخته شده است.
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
